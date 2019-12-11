@@ -141,6 +141,7 @@ body {
 
 .grades_menu {
   padding: 8px;
+  margin: 8px;
   font-size: 20px;
   height: 120px;
 }
@@ -171,7 +172,7 @@ body {
   margin-right: auto;
   padding-left: 1em;
   padding-right: 1em;
-  max-width: 1250px;
+  max-width: 1200px;
 }
 
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-13, .col-xs-14, .col-xs-15, .col-xs-16, .col-xs-17, .col-xs-18, .col-xs-20 {

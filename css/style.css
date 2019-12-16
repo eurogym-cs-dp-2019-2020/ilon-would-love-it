@@ -89,21 +89,97 @@ header {
   color: black;
   height: 164px;
 }
+.foothyper{
+  color:white;
+}
+
+.ded_inside {
+  font-size: 40px;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+
+.fuck {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.adress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 250px;
+  margin-bottom: 100px;
+}
+
+.qwerty1 {
+  font-size: 22px;
+}
+
+.qwerty2 {
+  margin-right: 400px;
+}
+
+.svedeniya {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0.00001;
+  margin-right: 40px;
+  line-height: 2.2;
+}
+
+.design {
+  font-size: 12px;
+}
+
 .footer {
   background: #262626;
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0.00001;
+  margin-right: 40px;
+  line-height: 1.4;
+}
+
+.OO {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fuckoff {
+  border: none;
+  background-color: white;
+  color: white;
+  height: 2px;
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  background-color: tomato;
 }
 
 .header-spacer {
   flex-grow: 2;
   text-align: right;
+  
 }
-
-.img-header {}
-
+A:hover {
+  color: red;
+}
+A:active {
+  color: white;
+}
 .education-header {
   padding: 8px;
 }
@@ -459,7 +535,7 @@ body {
   .col-xl-17 {
     flex-basis: 85%;
   }
-  .col-xl-18 {
+  .col-xl-18 {d
     flex-basis: 90%;
   }
   .col-xl-19 {
